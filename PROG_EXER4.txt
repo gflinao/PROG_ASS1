@@ -1,0 +1,20 @@
+//Problem No.24
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	int ton = 2205;
+	float amtRice;
+	float bags;
+	
+	cout << "\nAmount of Rice (pounds): ";
+	cin >> amtRice;
+	
+	bags = ton / amtRice;
+	
+	cout << "\nYou only need:" << bags << "Number of bags to store in one metric ton of rice.";
+	
+	return 0;
+}
